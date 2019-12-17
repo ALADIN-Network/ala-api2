@@ -1,5 +1,5 @@
 {
-  "name": "alaexplorerjs-api-v2.0.1",
+  "name": "ala-api2",
   "version": "2.0.1",
   "description": "Application programming interface to ALA blockchain nodes.",
   "main": "lib/index.js",
@@ -12,19 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALADIN-Network/alaexplorerjs-api-v2.0.1.git"
+    "url": "git+https://github.com/ALADIN-Network/ala-api2.git"
   },
   "keywords": [
-    "ALA",
+    "ALADIN",
     "Blockchain",
     "API"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ALADIN-Network/alaexplorerjs-api-v2.0.1/issues"
+    "url": "https://github.com/ALADIN-Network/ala-api2/issues"
   },
-  "homepage": "https://github.com/ALADIN-Network/alaexplorerjs-api-v2.0.1#readme",
+  "homepage": "https://github.com/ALADIN-Network/ala-api2#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "camel-case": "^3.0.0",
-    "alaexplorerjs-json-v2.0.2": "^2.0.2",
+    "ala-json2": "^2.0.2",
     "isomorphic-fetch": "^2.2.1"
   },
   "babel": {

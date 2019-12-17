@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/ALAIO/alaexplorerjs-api-v2.0.1.svg?branch=master)](https://travis-ci.org/ALAIO/alaexplorerjs-api-v2.0.1)
-[![NPM](https://img.shields.io/npm/v/alaexplorerjs-api-v2.0.1.svg)](https://www.npmjs.org/package/alaexplorerjs-api-v2.0.1)
+[![Build Status](https://travis-ci.org/ALAIO/ala-api2.svg?branch=master)](https://travis-ci.org/ALAIO/ala-api2)
+[![NPM](https://img.shields.io/npm/v/ala-api2.svg)](https://www.npmjs.org/package/ala-api2)
 
 # Ala API
 
@@ -12,7 +12,7 @@ Build and run [alad](https://github.com/ALADIN-Network/ala) or direct requests t
 ## Usage
 
 ```javascript
-api = require('alaexplorerjs-api-v2.0.1') // Or api = require('./src')
+api = require('ala-api2') // Or api = require('./src')
 
 testnet = api.Testnet() // See ./src/testnet.js for configuration
 
@@ -42,7 +42,7 @@ testnet.getBlock({block_num_or_id: 1}).then(result => console.log(result))
 ## Configuration
 
 ```js
-api = require('alaexplorerjs-api-v2.0.1') // Or api = require('./src')
+api = require('ala-api2') // Or api = require('./src')
 
 options = {
   httpEndpoint: 'http://127.0.0.1:8888', // default
@@ -55,8 +55,8 @@ testnet = api.Testnet(options)
 ## API Documentation
 
 API methods and documentation are generated from:
-* [chain.json](https://github.com/ALADIN-Network/alaexplorerjs-json-v2.0.2/blob/master/api/v1/chain.json)
-* [account_history.json](https://github.com/ALADIN-Network/alaexplorerjs-json-v2.0.2/blob/master/api/v1/account_history.json)
+* [chain.json](https://github.com/ALADIN-Network/ala-json2/blob/master/api/v1/chain.json)
+* [account_history.json](https://github.com/ALADIN-Network/ala-json2/blob/master/api/v1/account_history.json)
 
 ## Environment
 

@@ -4,7 +4,7 @@ const camelCase = require('camel-case')
 const apiGen = require('./apigen')
 
 const apiVersions = {
-  v1: require(`alaexplorerjs-json-v2.0.2/api/v1`)
+  v1: require(`ala-json2/api/v1`)
 }
 
 describe('API Generator', function () {
